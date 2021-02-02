@@ -1,0 +1,32 @@
+{
+  "name": "sl_backend",
+  "version": "1.0.0",
+  "description": "backend for SwipeLab",
+  "main": "src/index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojanjz/sl_backend.git"
+  },
+  "keywords": [
+    "swipelab"
+  ],
+  "author": "SwipeLab Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojanjz/sl_backend/issues"
+  },
+  "homepage": "https://github.com/mojanjz/sl_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
